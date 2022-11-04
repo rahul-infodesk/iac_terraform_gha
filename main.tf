@@ -6,7 +6,7 @@ terraform {
   }
 
   backend "remote" {
-    organization = "CourageAI"
+    organization = "infodesk"
 
     workspaces {
       name = "CourageAI-Infrastructure"
